@@ -95,11 +95,11 @@ concepts:
           欢迎学习《高级 Android 应用开发》课程！在这门课程中，你将创建和编写 7 个不同的的示例应用，并学习高级 Android 技能，这些应用包括：
 
           * [AndroidMe](https://github.com/udacity/Android_Me/) - AndroidMe 这款应用使你能够通过自定义 Android 的外观，来调整你自己的 Android 风格！它会使用[框架](https://developer.android.google.cn/guide/components/fragments.html) 和 Activity 的模块部分创建灵活的自适应用户界面。
-          * [Emojify](https://github.com/udacity/AdvancedAndroid_Emojify) - Emojify 是一款有趣的应用，它能够根据你的面部表情将自拍照变成相应的表情符号！在这款应用中，你将开始接触库。
+          * [Emojify](https://github.com/udacity/AdvancedAndroid_Emojify) - Emojify 是一款有趣的应用，它能够根据你的面部表情将自拍照变成相应的表情符号！这是你使用库的入门应用。
           * [Squawker](https://github.com/udacity/AdvancedAndroid_Squawker/) - Squawker 是一款社交媒体应用，每当情绪烦躁时，课程讲师将会发出“抱怨声”。该应用会以节省电量的方式来实时地显示新的服务器数据。
           * [ShushMe](https://github.com/udacity/AdvancedAndroid_Shushme) - 每当你到达你设定的地点时，ShushMe 就会让设备静音。在这款应用中，我们将介绍 [Geofence](https://developer.android.google.cn/training/location/geofencing.html)。
           * [ClassicalMusicQuiz](https://github.com/udacity/AdvancedAndroid_ClassicalMusicQuiz) - 这款应用是一个简单的音频测验应用，你将通过聆听音乐作品来猜测作曲者！我们将在这款应用的创建过程中介绍 [Android Media Player](https://developer.android.google.cn/guide/topics/media/mediaplayer.html)。
-          * [MyGarden](https://github.com/udacity/AdvancedAndroid_MyGarden) - MyGarden 是一款园艺应用，你可以向花园中添加植物，并定期浇水，这样植物才会茂盛地生长。在这款应用的学习过程中，我们将介绍小部件。
+          * [MyGarden](https://github.com/udacity/AdvancedAndroid_MyGarden) - MyGarden 是一款园艺应用，你可以向花园中添加植物，并定期浇水，这样植物才会茂盛地生长。这是小部件的入门应用。
           * [TeaTime](https://github.com/udacity/AdvancedAndroid_TeaTime) - TeaTime 是一个点茶模拟应用，展示了 [Espresso 测试框架](https://developer.android.google.cn/training/testing/ui-testing/espresso-testing.html)的不同用途（即 View、AdapterView、Intent、IdlingResource）。
 
 
