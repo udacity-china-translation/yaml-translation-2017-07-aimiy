@@ -94,9 +94,9 @@ concepts:
 
           欢迎学习《高级 Android 应用开发》课程！在这门课程中，你将创建和编写 7 个不同的的示例应用，并学习高级 Android 技能，这些应用包括：
 
-          * [AndroidMe](https://github.com/udacity/Android_Me/) - AndroidMe 这款应用使你能够通过自定义 Android 的外观，创建个性化 Android 系统！它会使用[框架](https://developer.android.google.cn/guide/components/fragments.html) 和 Activity 的模块部分创建灵活的自适应用户界面。
+          * [AndroidMe](https://github.com/udacity/Android_Me/) - AndroidMe 这款应用使你能够通过自定义 Android 的外观，来创建个性化 Android 系统！它会使用[框架](https://developer.android.google.cn/guide/components/fragments.html) 和 Activity 的模块部分创建灵活的自适应用户界面。
           * [Emojify](https://github.com/udacity/AdvancedAndroid_Emojify) - Emojify 是一款有趣的应用，它能够根据你的面部表情将自拍照变成相应的表情符号！在这款应用中，你将开始接触库。
-          * [Squawker](https://github.com/udacity/AdvancedAndroid_Squawker/) - Squawker 是一款社交媒体应用，每当情绪烦躁时，课程讲师将会发出“抱怨声”。该应用会实时地显示新的服务器数据，并能够节省电量。
+          * [Squawker](https://github.com/udacity/AdvancedAndroid_Squawker/) - Squawker 是一款社交媒体应用，每当情绪烦躁时，课程讲师将会发出“抱怨声”。该应用会以节省电量的方式来实时地显示新的服务器数据。
           * [ShushMe](https://github.com/udacity/AdvancedAndroid_Shushme) - 每当你到达你设定的地点时，ShushMe 就会让设备静音。在这款应用中，我们将介绍 [Geofence](https://developer.android.google.cn/training/location/geofencing.html)。
           * [ClassicalMusicQuiz](https://github.com/udacity/AdvancedAndroid_ClassicalMusicQuiz) - 这款应用是一个简单的音频测验应用，你将通过聆听音乐作品来猜测作曲者！我们将在这款应用的创建过程中介绍 [Android Media Player](https://developer.android.google.cn/guide/topics/media/mediaplayer.html)。
           * [MyGarden](https://github.com/udacity/AdvancedAndroid_MyGarden) - MyGarden 是一款园艺应用，你可以向花园中添加植物，并定期浇水，这样植物才会茂盛地生长。在这款应用的学习过程中，我们将介绍小部件。
@@ -112,11 +112,11 @@ concepts:
           * 如何阅读 GitHub 上的 diff
           * Git 中的分支是什么
           * 如何使用 checkout 在分支之间切换
-          * 如何分阶段和提交代码
+          * 如何添加至暂存区和提交代码
 
           ## 课程代码的结构
 
-          这门课程的每个代码代码库都具有一个 commit 链，如下所示：
+          这门课程的每个代码库都具有一个 commit 链，如下所示：
 
 
 
@@ -145,7 +145,7 @@ concepts:
         updated_at: 'Fri Jun 23 2017 02:09:00 GMT+0000 (UTC)'
         is_public: true
         text: |-
-          这些 commit 展示了创建应用需要采取的每个步骤，包括**练习** commit 和**答案** commit。练习 commit 包含了完成练习的说明，而答案 commit 显示了完成后的练习。你可以通过查看 commit 消息了解是什么样的 commit。 
+          这些 commit 展示了创建应用需要采取的每个步骤，包括**练习** commit 和**答案** commit。练习 commit 包含了完成练习的说明，答案 commit 即是完成后的练习。你可以通过查看 commit 信息来了解是什么样的 commit。 
 
           例如，**TFCM.01-Exercise-AddGradleDependencies** 是 Firebase Cloud Messaging (FCM) 课程的第一个编程步骤。这是练习 commit，该练习叫做“添加 Gradle 依赖项”。
 
@@ -210,9 +210,9 @@ concepts:
           基本步骤包括：
 
           1. 克隆代码库
-          2. 检出练习分支
+          2. 创建练习分支
           3. 查找并完成 TODO
-          4. （可选）commit 你的代码更改
+          4. （可选）commit 你更改的代码
           5. 与答案进行对比
 
           **第 1 步：克隆代码库**
@@ -223,7 +223,7 @@ concepts:
           git clone https://github.com/udacity/REPOSITORY_NAME.git
           ```
 
-          **第 2 步：检出练习分支**
+          **第 2 步：创建练习分支**
 
           当你完成不同的编程练习时，我们会告诉你要完成哪个练习，如下所示：
         instructor_notes: ''
@@ -251,7 +251,7 @@ concepts:
         updated_at: 'Fri Jun 23 2017 02:09:00 GMT+0000 (UTC)'
         is_public: true
         text: |-
-          要完成某个练习，你需要检出与该练习相关的分支。对于上述练习，检出分支的命令是：
+          要完成某个练习，你需要创建与该练习相关的分支。对于上述练习，创建分支的命令是：
 
           ```bash
           git checkout TFCM.01-Exercise-AddGradleDependencies
@@ -259,7 +259,7 @@ concepts:
 
           **第 3 步：查找并完成 TODO**
 
-          该分支的标题中始终具有 **Exercise** 字眼。检出分支后，你将拥有处在你所需状态的代码，甚至包括 TODO。TODO 是一种特殊的注释，可以告诉你完成练习需要执行的所有步骤。你可以使用 Android Studio 的 TODO 工具轻松地查找所有 TODO。要打开 TODO 工具，点击屏幕底部带有“TODO”字样的按钮，系统随即显示出项目中的所有 TODO 注释列表。我们对 TODO 步骤进行了编号，使你能够按顺序完成这些 TODO：
+          该分支的标题应始终具有 **Exercise** 字眼。创建分支后，你将拥有你所需状态的代码，甚至包括 TODO。TODO 是一种特殊的注释，可以告诉你完成练习需要执行的所有步骤。你可以使用 Android Studio 的 TODO 工具轻松地查找所有 TODO。要打开 TODO 工具，点击屏幕底部带有“TODO”字样的按钮，系统随即显示出项目中的所有 TODO 注释列表。我们对 TODO 步骤进行了编号，使你能够按顺序完成这些 TODO：
         instructor_notes: ''
         resources: null
       - id: 338070
@@ -294,9 +294,9 @@ concepts:
           git commit -m "Your commit message"
           ```
 
-          **第 5 步：与解决方案进行对比**
+          **第 5 步：与答案进行对比**
 
-          大部分练习都会给出退出课堂的步骤列表。退出之后，系统会弹出一个窗口，并在其中给出解决方案代码的链接。请注意 **Diff** 链接：
+          大多数练习都有一系列的步骤来检查你的答案。检查之后，你将会看到一个弹出窗口，其中给出了方案代码的链接。请注意 **Diff** 链接：
         instructor_notes: ''
         resources: null
       - id: 338069
